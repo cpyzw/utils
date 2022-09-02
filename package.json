@@ -22,7 +22,7 @@
     "start": "esno src/index.ts",
     "dev": "cross-env NODE_ENV='development' esno src/index.ts",
     "build": "npx tsup",
-    "release": "npx bumpp && npm publish",
+    "release": "npx bumpp && npm publish --access=public",
     "doc": "npm build && typedoc src/index.ts src/dom/index.ts",
     "lint": "npx eslint ./src --config=.eslintrc.js",
     "lint-fix": "npx eslint ./src --config=.eslintrc.js --fix"
