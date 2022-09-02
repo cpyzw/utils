@@ -1,6 +1,6 @@
 {
   "name": "zw-utils",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "uitis",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -21,8 +21,8 @@
     "prepublishOnly": "npm run build",
     "start": "esno src/index.ts",
     "dev": "cross-env NODE_ENV='development' esno src/index.ts",
-    "build": "tsup",
-    "release": "bumpp && npm publish",
+    "build": "npx tsup",
+    "release": "npx bumpp && npm publish",
     "doc": "npm build && typedoc src/index.ts src/dom/index.ts",
     "lint": "npx eslint ./src --config=.eslintrc.js",
     "lint-fix": "npx eslint ./src --config=.eslintrc.js --fix"
