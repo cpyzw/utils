@@ -1,6 +1,6 @@
 {
   "name": "zw-utils",
-  "version": "1.1.5",
+  "version": "1.1.9",
   "description": "uitis",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
