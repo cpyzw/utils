@@ -7,7 +7,7 @@
 
 
 
-## info
+## Info
 
 Collection of utils by [@cpyzw](https://github.com/cpyzw)
 
